@@ -3,7 +3,7 @@ import styles from "../module/CountriesCard.module.css";
 
 const CountriesCard = ({ countryValue }) => {
   return (
-    <div className={styles.countryCard}>
+    <div className={styles.countryCard} name=".countryCard" id=".countryCard">
       <img
         src={countryValue.flags.png}
         alt={countryValue.flags.name}
