@@ -22,9 +22,9 @@ const CountriesCard = ({ countryValue }) => {
         height="100px"
         style={{ boxShadow: "0 0 7px #000000", border: "1px solid #000000" }}
       />
-      <h3 style={{ fontFamily: "cursive", textAlign: "center" }}>
+      <h2 style={{ fontFamily: "cursive", textAlign: "center" }}>
         {countryValue.name.common}
-      </h3>
+      </h2>
     </div>
   );
 };
