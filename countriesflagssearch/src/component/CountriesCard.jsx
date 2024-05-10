@@ -1,20 +1,9 @@
 import React from "react";
+import styles from "../module/CountriesCard.module.css";
 
 const CountriesCard = ({ countryValue }) => {
   return (
-    <div id="countryCard"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        margin: "10px",
-        padding: "10px",
-        border: "1px solid black",
-        borderRadius: "8px",
-        flexDirection: "column",
-        width: "200px",
-      }}
-    >
+    <div className={styles.countryCard}>
       <img
         src={countryValue.flags.png}
         alt={countryValue.flags.name}
