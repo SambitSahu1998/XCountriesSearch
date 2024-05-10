@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../module/CountriesCard.module.css";
+import "./CountriesCard.css";
 
 const CountriesCard = ({ countryValue }) => {
   return (
-    <div className={styles.countryCard} name=".countryCard" id=".countryCard">
+    <div className="countryCard">
       <img
         src={countryValue.flags.png}
         alt={countryValue.flags.name}
