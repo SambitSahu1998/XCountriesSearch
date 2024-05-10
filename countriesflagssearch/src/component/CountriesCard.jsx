@@ -2,7 +2,7 @@ import React from "react";
 
 const CountriesCard = ({ countryValue }) => {
   return (
-    <div
+    <div id="countryCard"
       style={{
         display: "flex",
         justifyContent: "center",
